@@ -34,8 +34,11 @@ if [[ $* == *--get-core* ]]
 then
     git -C .. clone https://github.com/rgrenz/rdflime-core
     
+    # We need poetry>=1.2.0a2 for the --editable flag
+    poetry self update --preview 
+    
     # Install for util notebooks
-    poetry add ../rdflime-core
+    poetry add ../rdflime-core --editable
 
     # Install for core editing
     # cd ../rdflime-core
