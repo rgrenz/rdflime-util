@@ -24,21 +24,21 @@ curl -sSL https://install.python-poetry.org | python3 -
 echo 'export PATH="~/.local/bin:$PATH"' >> ~/.bashrc
 export PATH="~/.local/bin:$PATH"
 
+# We need poetry>=1.2.0a2 for the --editable flag and dependency groups
+poetry self update --preview 
+
 # Install python dependencies for util repository
 rdflimeUtil=$(dirname $0)/..
 cd $rdflimeUtil
-poetry install
+poetry install --without rdflime-core
 
 # Get RDFLIME core implementation
 if [[ $* == *--get-core* ]]
 then
     git -C .. clone https://github.com/rgrenz/rdflime-core
     
-    # We need poetry>=1.2.0a2 for the --editable flag
-    poetry self update --preview 
-    
     # Install for util notebooks
-    poetry add ../rdflime-core --editable
+    poetry install --only rdflime-core
 
     # Install for core editing
     # cd ../rdflime-core
