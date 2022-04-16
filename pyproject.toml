@@ -5,7 +5,14 @@ description = ""
 authors = ["Rouven Grenz"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
+ipykernel = "^6.13.0"
+pandas = "^1.4.2"
+pyrdf2vec = "^0.2.3"
+gensim = "^4.1.2"
+rdflib = "^6.1.1"
+aiohttp = "^3.8.1"
+sklearn = "^0.0"
 
 [tool.poetry.dev-dependencies]
 

@@ -29,12 +29,15 @@ rdflimeUtil=$(dirname $0)/..
 cd $rdflimeUtil
 poetry install
 
-# Get RDFLIME core implementation and install in a clean python environment
+# Get RDFLIME core implementation
 if [[ $* == *--get-core* ]]
 then
-    cd ..
-    git clone https://github.com/rgrenz/rdflime-core
-    cd rdflime-core
-    poetry init -n
-    poetry run python ./setup.py install
+    git -C .. clone https://github.com/rgrenz/rdflime-core
+    
+    # Install for util notebooks
+    poetry add ../rdflime-core
+
+    # Install for core editing
+    # cd ../rdflime-core
+    # poetry run pip install -e .
 fi
