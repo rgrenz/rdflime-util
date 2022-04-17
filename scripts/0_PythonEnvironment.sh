@@ -4,11 +4,13 @@
 # Script to setup local python environment for RDFLIME.
 # Flags:
 #   --lbzip2    Install lbzip2, a faster decompression tool for our DBpedia data
-#   --get-core  Also clone and setup the core RDFLIME implementation
+#
 
-sudo apt update -y
+rdflimeUtil=$(dirname $0)/..
+cd $rdflimeUtil
 
-# Install Build Tools for pyRDF2Vec dependencies 
+# Install Build Tools for pyRDF2Vec dependencies and other prerequisites
+sudo apt update
 sudo apt install build-essential python3-dev git wget bzip2 python3-venv -y
 
 # Allow for faster extraction
@@ -19,28 +21,17 @@ then
     alias bzip2="lbzip2"
 fi
 
+# Get RDFLIME core implementation
+git -C .. clone https://github.com/rgrenz/rdflime-core
+
 # Get Poetry
 curl -sSL https://install.python-poetry.org | python3 -
 echo 'export PATH="~/.local/bin:$PATH"' >> ~/.bashrc
 export PATH="~/.local/bin:$PATH"
 
-# We need poetry>=1.2.0a2 for the --editable flag and dependency groups
-poetry self update --preview 
+# Install for util notebooks
+poetry install 
 
-# Install python dependencies for util repository
-rdflimeUtil=$(dirname $0)/..
-cd $rdflimeUtil
-poetry install --without rdflime-core
-
-# Get RDFLIME core implementation
-if [[ $* == *--get-core* ]]
-then
-    git -C .. clone https://github.com/rgrenz/rdflime-core
-    
-    # Install for util notebooks
-    poetry install --only rdflime-core
-
-    # Install for core editing
-    # cd ../rdflime-core
-    # poetry run pip install -e .
-fi
+# Install for core editing
+cd ../rdflime-core
+poetry run pip install -e .

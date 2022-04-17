@@ -13,11 +13,7 @@ gensim = "^4.1.2"
 rdflib = "^6.1.1"
 aiohttp = "^3.8.1"
 sklearn = "^0.0"
-
-[tool.poetry.group.rdflime-core.dependencies]
-lime = {path = "../rdflime-core", develop = true}
-
-[tool.poetry.dev-dependencies]
+lime = {path = "../rdflime-core", develop = true }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
