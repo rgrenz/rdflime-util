@@ -33,5 +33,5 @@ export PATH="~/.local/bin:$PATH"
 poetry install 
 
 # Install for core editing
-cd ../rdflime-core
-poetry run pip install -e .
+# cd ../rdflime-core
+# poetry run pip install -e .
