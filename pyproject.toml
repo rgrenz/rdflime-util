@@ -7,7 +7,6 @@ authors = ["Rouven Grenz"]
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
 ipykernel = "^6.13.0"
-pandas = "^1.4.2"
 pyrdf2vec = "^0.2.3"
 gensim = "^4.1.2"
 rdflib = "^6.1.1"
@@ -15,6 +14,7 @@ aiohttp = "^3.8.1"
 sklearn = "^0.0"
 lime = {path = "../rdflime-core", develop = true }
 requests = "^2.27.1"
+pandas = "^1.4.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
