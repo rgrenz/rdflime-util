@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # 
 # Script to setup local python environment for RDFLIME.
@@ -6,7 +7,9 @@
 #   --lbzip2    Install lbzip2, a faster decompression tool for our DBpedia data
 #
 
-rdflimeUtil=$(dirname $0)/..
+scriptsRoot=$(dirname "${BASH_SOURCE[0]}")
+rdflimeUtil=$scriptsRoot/..
+
 cd $rdflimeUtil
 
 # Install Build Tools for pyRDF2Vec dependencies and other prerequisites
