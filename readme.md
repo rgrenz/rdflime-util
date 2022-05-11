@@ -7,7 +7,7 @@ __RDF-LIME: Locally Faithful Model-Agnostic Explanations for Machine Learning on
 ### Replicating the results
 
 #### Prerequisites
-Ideally, start from a clean Linux system with Python 3 installed, e.g. using a fresh Python 3.8 docker image in the VS Code devcontainer environment.
+Ideally, start from a clean Linux system with Python 3.8 installed, e.g. using a fresh Python 3 docker image in the VS Code devcontainer environment.
 
 __1. Download__ this repository:
 ```bash
