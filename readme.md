@@ -40,3 +40,13 @@ __1. Data Preprocessing__:
 # Preprocessing - to correct some minor dataset errors, please run the cells in:
 ./rdflime-util/notebooks/1_DBpediaFixes.ipynb
 ```
+
+__2. Generation & Evaluation__:
+```bash
+# Follow the steps outlined in:
+./rdflime-util/notebooks/2_InitialPipeline.ipynb
+
+# Now we have built and evaluated RDF2Vec knowledge graph embeddings for our entities of interest.
+# Additionally, the classifier under test has been trained already.
+# Next step: Explanations!
+```
