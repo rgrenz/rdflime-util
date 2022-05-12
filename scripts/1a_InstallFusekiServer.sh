@@ -19,6 +19,7 @@ wget https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-4.4.0.zip 
 unzip apache-jena-fuseki-4.4.0.zip
 unzip apache-jena-4.4.0.zip
 rm *.zip
+cd -
 
 # Get dbpedia
 if [ -d "$rdflimeUtil/data/dbpedia" ]; then
