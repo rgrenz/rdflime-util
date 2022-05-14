@@ -16,6 +16,7 @@ lime = {path = "../rdflime-core", develop = true }
 requests = "^2.27.1"
 evaluation-framework = {git = "https://github.com/mariaangelapellegrino/Evaluation-Framework.git", rev = "ddfd4ea654a3d7d2abd58f062ec98a8a736f8f51"}
 pandas = "1.0.5"
+pyvis = "^0.2.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
