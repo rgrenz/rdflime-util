@@ -14,7 +14,7 @@ cd $rdflimeUtil
 
 # Install Build Tools for pyRDF2Vec dependencies and other prerequisites
 sudo apt update
-sudo apt install build-essential python3-dev git wget bzip2 python3-venv -y
+sudo apt install build-essential python3-dev git wget bzip2 python3-venv graphviz -y
 
 # Allow for faster extraction
 if [[ $* == *--lbzip2* ]]
