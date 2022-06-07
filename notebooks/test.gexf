@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-06-07">
+    <creator>NetworkX 2.8</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="width" type="double" />
+      <attribute id="1" title="color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Kung_Fu_Panda_2" label="Kung_Fu_Panda_2" />
+      <node id="Category_DreamWorks_Animation_animated_films" label="Category_DreamWorks_Animation_animated_films" />
+      <node id="Category_Films_using_computer-generated_imagery" label="Category_Films_using_computer-generated_imagery" />
+      <node id="Category_Films_about_revenge" label="Category_Films_about_revenge" />
+      <node id="Jackie_Chan" label="Jackie_Chan" />
+      <node id="Category_Film_and_video_technology" label="Category_Film_and_video_technology" />
+      <node id="Q386724" label="Q386724" />
+      <node id="Category_21st-century_American_male_actors" label="Category_21st-century_American_male_actors" />
+      <node id="Dustin_Hoffman" label="Dustin_Hoffman" />
+      <node id="Category_Films_about_animals" label="Category_Films_about_animals" />
+      <node id="Category_Jean_Hersholt_Humanitarian_Award_winners" label="Category_Jean_Hersholt_Humanitarian_Award_winners" />
+      <node id="Angelina_Jolie" label="Angelina_Jolie" />
+      <node id="John_Powell_(film_composer)" label="John_Powell_(film_composer)" />
+      <node id="Category_Hong_Kong_male_voice_actors" label="Category_Hong_Kong_male_voice_actors" />
+      <node id="Films about revenge" label="Films about revenge" />
+      <node id="Category_Nature_films" label="Category_Nature_films" />
+      <node id="Hans_Zimmer" label="Hans_Zimmer" />
+      <node id="Hans_Zimmer__1" label="Hans_Zimmer__1" />
+      <node id="Paramount_Pictures" label="Paramount_Pictures" />
+    </nodes>
+    <edges>
+      <edge source="Kung_Fu_Panda_2" target="Category_DreamWorks_Animation_animated_films" id="0">
+        <attvalues>
+          <attvalue for="0" value="5.287206133952796" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Kung_Fu_Panda_2" target="Category_Films_about_revenge" id="1">
+        <attvalues>
+          <attvalue for="0" value="0.25" />
+          <attvalue for="1" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="Kung_Fu_Panda_2" target="Q386724" id="2">
+        <attvalues>
+          <attvalue for="0" value="4.355699619639115" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Kung_Fu_Panda_2" target="John_Powell_(film_composer)" id="3">
+        <attvalues>
+          <attvalue for="0" value="8.0" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Kung_Fu_Panda_2" target="Category_Films_using_computer-generated_imagery" id="4">
+        <attvalues>
+          <attvalue for="0" value="6.243332470493778" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Kung_Fu_Panda_2" target="Hans_Zimmer" id="5">
+        <attvalues>
+          <attvalue for="0" value="0.25" />
+          <attvalue for="1" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="Kung_Fu_Panda_2" target="Paramount_Pictures" id="6">
+        <attvalues>
+          <attvalue for="0" value="4.693043289146566" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Category_Films_using_computer-generated_imagery" target="Kung_Fu_Panda_2" id="7">
+        <attvalues>
+          <attvalue for="0" value="5.131812244350916" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Category_Films_using_computer-generated_imagery" target="Category_Film_and_video_technology" id="8">
+        <attvalues>
+          <attvalue for="0" value="5.616091080838087" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Category_Films_about_revenge" target="Films about revenge" id="9">
+        <attvalues>
+          <attvalue for="0" value="4.476468161114495" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Jackie_Chan" target="Kung_Fu_Panda_2" id="10">
+        <attvalues>
+          <attvalue for="0" value="5.6014148293476955" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Category_21st-century_American_male_actors" target="Dustin_Hoffman" id="11">
+        <attvalues>
+          <attvalue for="0" value="4.605809922449856" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Dustin_Hoffman" target="Kung_Fu_Panda_2" id="12">
+        <attvalues>
+          <attvalue for="0" value="0.25" />
+          <attvalue for="1" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="Category_Films_about_animals" target="Kung_Fu_Panda_2" id="13">
+        <attvalues>
+          <attvalue for="0" value="0.25" />
+          <attvalue for="1" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="Category_Jean_Hersholt_Humanitarian_Award_winners" target="Angelina_Jolie" id="14">
+        <attvalues>
+          <attvalue for="0" value="5.144568896666817" />
+          <attvalue for="1" value="red" />
+        </attvalues>
+      </edge>
+      <edge source="Angelina_Jolie" target="Kung_Fu_Panda_2" id="15">
+        <attvalues>
+          <attvalue for="0" value="4.385549292799417" />
+          <attvalue for="1" value="red" />
+        </attvalues>
+      </edge>
+      <edge source="Category_Hong_Kong_male_voice_actors" target="Jackie_Chan" id="16">
+        <attvalues>
+          <attvalue for="0" value="4.3934972316956316" />
+          <attvalue for="1" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="Category_Nature_films" target="Category_Films_about_animals" id="17">
+        <attvalues>
+          <attvalue for="0" value="4.337067312201952" />
+          <attvalue for="1" value="red" />
+        </attvalues>
+      </edge>
+      <edge source="Hans_Zimmer" target="Hans_Zimmer__1" id="18">
+        <attvalues>
+          <attvalue for="0" value="4.327336670357865" />
+          <attvalue for="1" value="red" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
