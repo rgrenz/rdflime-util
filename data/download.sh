@@ -13,6 +13,20 @@ rm -rf $moviePath
 mkdir $moviePath
 wget https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/MetacriticMovies.tsv -O $moviePath/movies.tsv -q --show-progress
 
+# Download metacritic-albums dataset
+printf "✨ ${BLUE}Downloading metacritic-albums dataset...${NC}\n"
+albumPath=$dataRoot/metacritic-albums
+rm -rf $albumPath
+mkdir $albumPath
+wget https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/MetacriticAlbums.tsv -O $albumPath/albums.tsv -q --show-progress
+
+# Download forbes-companies dataset
+printf "✨ ${BLUE}Downloading forbes-companies dataset...${NC}\n"
+companiesPath=$dataRoot/forbes-companies
+rm -rf $companiesPath
+mkdir $companiesPath
+wget https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/Forbes.tsv -O $albumPath/albums.tsv -q --show-progress
+
 # Download dbpedia
 printf "\n✨ ${BLUE}Downloading dbpedia...${NC}\n"
 dbpediaPath=$dataRoot/dbpedia
