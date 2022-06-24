@@ -6,26 +6,32 @@ NC='\033[0m'
 dataRoot=$(dirname "${BASH_SOURCE[0]}")
 dbpediaSHA1=4127b5d0eb6ecc45350e7f0c619b3b6b88c3c24c
 
-# Download metacritic-movie dataset
-printf "✨ ${BLUE}Downloading metacritic-movies dataset...${NC}\n"
-moviePath=$dataRoot/metacritic-movies
-rm -rf $moviePath
-mkdir $moviePath
-wget https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/MetacriticMovies.tsv -O $moviePath/movies.tsv -q --show-progress
+datasets=(
+    metacritic-movies
+    metacritic-albums
+    forbes-companies
+    mercer-cities
+    aaup-salaries
+)
 
-# Download metacritic-albums dataset
-printf "✨ ${BLUE}Downloading metacritic-albums dataset...${NC}\n"
-albumPath=$dataRoot/metacritic-albums
-rm -rf $albumPath
-mkdir $albumPath
-wget https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/MetacriticAlbums.tsv -O $albumPath/albums.tsv -q --show-progress
+locations=(
+    https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/MetacriticMovies.tsv
+    https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/MetacriticAlbums.tsv
+    https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/Forbes.tsv
+    https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/Cities.tsv
+    https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/AAUP.tsv 
+)
 
-# Download forbes-companies dataset
-printf "✨ ${BLUE}Downloading forbes-companies dataset...${NC}\n"
-companiesPath=$dataRoot/forbes-companies
-rm -rf $companiesPath
-mkdir $companiesPath
-wget https://raw.githubusercontent.com/mariaangelapellegrino/Evaluation-Framework/master/evaluation_framework/Classification/data/Forbes.tsv -O $albumPath/albums.tsv -q --show-progress
+# Download gold-standard datasets
+for i in "${!datasets[@]}"; do
+    dataset=${datasets[$i]}
+    location=${locations[$i]}
+    printf "✨ ${BLUE}Downloading ${dataset} dataset...${NC}\n"
+    dataPath=$dataRoot/$dataset
+    rm -rf $dataPath
+    mkdir $dataPath
+    wget $location -O $dataPath/data.tsv -q --show-progress
+done
 
 # Download dbpedia
 printf "\n✨ ${BLUE}Downloading dbpedia...${NC}\n"
