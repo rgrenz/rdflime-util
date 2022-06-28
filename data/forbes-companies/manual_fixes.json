@@ -1,0 +1,390 @@
+[
+    {
+        "original": "http://dbpedia.org/resource/Total",
+        "fix": "http://dbpedia.org/resource/TotalEnergies"
+    },
+    {
+        "original": "http://dbpedia.org/resource/ENI",
+        "fix": "http://dbpedia.org/resource/Eni"
+    },
+    {
+        "original": "http://dbpedia.org/resource/ANZ",
+        "fix": "http://dbpedia.org/resource/Australia_and_New_Zealand_Banking_Group"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Vale",
+        "fix": "http://dbpedia.org/resource/Vale_S.A."
+    },
+    {
+        "original": "http://dbpedia.org/resource/GDF_Suez",
+        "fix": "http://dbpedia.org/resource/Engie"
+    },
+    {
+        "original": "http://dbpedia.org/resource/EADS",
+        "fix": "http://dbpedia.org/resource/Airbus"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Walgreen",
+        "fix": "http://dbpedia.org/resource/Walgreens"
+    },
+    {
+        "original": "http://dbpedia.org/resource/China_State_Construction",
+        "fix": "http://dbpedia.org/resource/China_State_Construction_Engineering"
+    },
+    {
+        "original": "http://dbpedia.org/resource/SEB",
+        "fix": "http://dbpedia.org/resource/Skandinaviska_Enskilda_Banken"
+    },
+    {
+        "original": "http://dbpedia.org/resource/VimpelCom",
+        "fix": "http://dbpedia.org/resource/VEON"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Linde",
+        "fix": "http://dbpedia.org/resource/The_Linde_Group"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Imperial_Tobacco_Group",
+        "fix": "http://dbpedia.org/resource/Imperial_Brands"
+    },
+    {
+        "original": "http://dbpedia.org/resource/China_Railway_Construction",
+        "fix": "http://dbpedia.org/resource/China_Railway_Construction_Corporation_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/AMP",
+        "fix": "http://dbpedia.org/resource/AMP_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/PPR",
+        "fix": "http://dbpedia.org/resource/Kering"
+    },
+    {
+        "original": "http://dbpedia.org/resource/NTPC",
+        "fix": "http://dbpedia.org/resource/NTPC_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Sabanci_Holding",
+        "fix": "http://dbpedia.org/resource/Sabancı_Holding"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Kirin_Holdings",
+        "fix": "http://dbpedia.org/resource/Kirin_Company"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Reed_Elsevier",
+        "fix": "http://dbpedia.org/resource/Elsevier"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Kellogg",
+        "fix": "http://dbpedia.org/resource/Kellogg's"
+    },
+    {
+        "original": "http://dbpedia.org/resource/HDFC",
+        "fix": "http://dbpedia.org/resource/HDFC_Bank"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Solvay",
+        "fix": "http://dbpedia.org/resource/Solvay_Process_Company"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Veolia_Environnement",
+        "fix": "http://dbpedia.org/resource/Veolia"
+    },
+    {
+        "original": "http://dbpedia.org/resource/PKO_Bank_Polski",
+        "fix": "http://dbpedia.org/resource/Powszechna_Kasa_Oszczędności_Bank_Polski"
+    },
+    {
+        "original": "http://dbpedia.org/resource/PTT_Global_Chemical",
+        "fix": "http://dbpedia.org/resource/PTT_Global_Chemical_Public_Company_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/SLM",
+        "fix": "http://dbpedia.org/resource/Sallie_Mae"
+    },
+    {
+        "original": "http://dbpedia.org/resource/HJ_Heinz",
+        "fix": "http://dbpedia.org/resource/Heinz"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Daqin_Railway",
+        "fix": "http://dbpedia.org/resource/Daqin_Railway_Company_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Evergrande_Real_Estate",
+        "fix": "http://dbpedia.org/resource/Evergrande_Group"
+    },
+    {
+        "original": "http://dbpedia.org/resource/JBS",
+        "fix": "http://dbpedia.org/resource/JBS_S.A."
+    },
+    {
+        "original": "http://dbpedia.org/resource/CSN",
+        "fix": "http://dbpedia.org/resource/Companhia_Siderúrgica_Nacional"
+    },
+    {
+        "original": "http://dbpedia.org/resource/PGE",
+        "fix": "http://dbpedia.org/resource/Polska_Grupa_Energetyczna"
+    },
+    {
+        "original": "http://dbpedia.org/resource/XL_Group",
+        "fix": "http://dbpedia.org/resource/XL_Catlin"
+    },
+    {
+        "original": "http://dbpedia.org/resource/VakifBank",
+        "fix": "http://dbpedia.org/resource/VakıfBank"
+    },
+    {
+        "original": "http://dbpedia.org/resource/ALFA",
+        "fix": "http://dbpedia.org/resource/ALFA_(Mexico)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/SCOR",
+        "fix": "http://dbpedia.org/resource/Scor_SE"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Biogen_Idec",
+        "fix": "http://dbpedia.org/resource/Biogen"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Pearson",
+        "fix": "http://dbpedia.org/resource/Pearson_PLC"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Bunge",
+        "fix": "http://dbpedia.org/resource/Bunge_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/LG_Corp",
+        "fix": "http://dbpedia.org/resource/LG_Corporation"
+    },
+    {
+        "original": "http://dbpedia.org/resource/KGHM_Polska_Miedz",
+        "fix": "http://dbpedia.org/resource/KGHM_Polska_Miedź"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Allergan",
+        "fix": "http://dbpedia.org/resource/Allergan,_Inc."
+    },
+    {
+        "original": "http://dbpedia.org/resource/HCP",
+        "fix": "http://dbpedia.org/resource/HCP,_Inc."
+    },
+    {
+        "original": "http://dbpedia.org/resource/Saudi_British_Bank",
+        "fix": "http://dbpedia.org/resource/The_Saudi_British_Bank"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Belgacom",
+        "fix": "http://dbpedia.org/resource/Belgacom_ICS"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Suning_Appliance",
+        "fix": "http://dbpedia.org/resource/Suning_Commerce_Group"
+    },
+    {
+        "original": "http://dbpedia.org/resource/CSL",
+        "fix": "http://dbpedia.org/resource/CSL_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Hershey",
+        "fix": "http://dbpedia.org/resource/The_Hershey_Company"
+    },
+    {
+        "original": "http://dbpedia.org/resource/CH_Robinson_Worldwide",
+        "fix": "http://dbpedia.org/resource/C._H._Robinson"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Santos",
+        "fix": "http://dbpedia.org/resource/Santos_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Air_France-KLM",
+        "fix": "http://dbpedia.org/resource/Air_France–KLM"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Coach",
+        "fix": "http://dbpedia.org/resource/Coach,_Inc."
+    },
+    {
+        "original": "http://dbpedia.org/resource/SES",
+        "fix": "http://dbpedia.org/resource/SES_S.A."
+    },
+    {
+        "original": "http://dbpedia.org/resource/LeGrand",
+        "fix": "http://dbpedia.org/resource/Legrand_(company)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Zimmer_Holdings",
+        "fix": "http://dbpedia.org/resource/Zimmer_Biomet"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Brambles",
+        "fix": "http://dbpedia.org/resource/Brambles_Limited"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Wisconsin_Energy",
+        "fix": "http://dbpedia.org/resource/WEC_Energy_Group"
+    },
+    {
+        "original": "http://dbpedia.org/resource/BPI",
+        "fix": "http://dbpedia.org/resource/Banco_Português_de_Investimento"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Weichai_Power",
+        "fix": "http://dbpedia.org/resource/Weichai_Power_Co.,_Ltd."
+    },
+    {
+        "original": "http://dbpedia.org/resource/NMDC",
+        "fix": "http://dbpedia.org/resource/National_Mineral_Development_Corporation"
+    },
+    {
+        "original": "http://dbpedia.org/resource/PGN",
+        "fix": "http://dbpedia.org/resource/Perusahaan_Gas_Negara"
+    },
+    {
+        "original": "http://dbpedia.org/resource/CCR",
+        "fix": "http://dbpedia.org/resource/CCR_S.A."
+    },
+    {
+        "original": "http://dbpedia.org/resource/Wendel",
+        "fix": "http://dbpedia.org/resource/Wendel_(group)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/SQM",
+        "fix": "http://dbpedia.org/resource/Sociedad_Química_y_Minera"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Goodyear",
+        "fix": "http://dbpedia.org/resource/Goodyear_Tire_and_Rubber_Company"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Jupiter_Telecommunications",
+        "fix": "http://dbpedia.org/resource/KDDI"
+    },
+    {
+        "original": "http://dbpedia.org/resource/TDC",
+        "fix": "http://dbpedia.org/resource/TDC_A/S"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Supervalu",
+        "fix": "http://dbpedia.org/resource/SuperValu_(United_States)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/SAIC",
+        "fix": "http://dbpedia.org/resource/Leidos"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Roper_Industries",
+        "fix": "http://dbpedia.org/resource/Roper_Technologies"
+    },
+    {
+        "original": "http://dbpedia.org/resource/China_Merchants_Holdings",
+        "fix": "http://dbpedia.org/resource/China_Merchants_Holdings_(International)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/BYD",
+        "fix": "http://dbpedia.org/resource/BYD_Company"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Life_Technologies",
+        "fix": "http://dbpedia.org/resource/Life_Technologies_(Thermo_Fisher_Scientific)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/NHN",
+        "fix": "http://dbpedia.org/resource/Naver_Corporation"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Avago_Technologies",
+        "fix": "http://dbpedia.org/resource/Broadcom"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Accor",
+        "fix": "http://dbpedia.org/resource/AccorHotels"
+    },
+    {
+        "original": "http://dbpedia.org/resource/BR_Malls",
+        "fix": "http://dbpedia.org/resource/Iguatemi_Empresa_de_Shopping_Centers"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Neste_Oil",
+        "fix": "http://dbpedia.org/resource/Neste"
+    },
+    {
+        "original": "http://dbpedia.org/resource/NSK",
+        "fix": "http://dbpedia.org/resource/NSK_Ltd."
+    },
+    {
+        "original": "http://dbpedia.org/resource/Hokuhoku_Financial_Group",
+        "fix": "http://dbpedia.org/resource/Hokuriku_Bank"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Beam",
+        "fix": "http://dbpedia.org/resource/Beam_Suntory"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Buenaventura",
+        "fix": "http://dbpedia.org/resource/Buenaventura_(mining_company)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Atco",
+        "fix": "http://dbpedia.org/resource/ATCO"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Maanshan_Iron_&_Steel",
+        "fix": "http://dbpedia.org/resource/Maanshan_Iron_and_Steel_Company"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Quinenco",
+        "fix": "http://dbpedia.org/resource/Quiñenco"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Pacific_Rubiales_Energy",
+        "fix": "http://dbpedia.org/resource/Pacific_Exploration_&_Production"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Serco_Group",
+        "fix": "http://dbpedia.org/resource/Serco"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Timken",
+        "fix": "http://dbpedia.org/resource/Timken_Company"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Lawson",
+        "fix": "http://dbpedia.org/resource/Lawson_(store)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Windstream",
+        "fix": "http://dbpedia.org/resource/Windstream_Holdings"
+    },
+    {
+        "original": "http://dbpedia.org/resource/CC_Media_Holdings",
+        "fix": "http://dbpedia.org/resource/IHeartMedia"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Saras",
+        "fix": "http://dbpedia.org/resource/Saras_S.p.A."
+    },
+    {
+        "original": "http://dbpedia.org/resource/Harbinger_Group",
+        "fix": "http://dbpedia.org/resource/HRG_Group"
+    },
+    {
+        "original": "http://dbpedia.org/resource/MISC",
+        "fix": "http://dbpedia.org/resource/Petronas"
+    },
+    {
+        "original": "http://dbpedia.org/resource/CapitaMall_Trust",
+        "fix": "http://dbpedia.org/resource/CapitaLand"
+    },
+    {
+        "original": "http://dbpedia.org/resource/WEG",
+        "fix": "http://dbpedia.org/resource/WEG_Industries"
+    },
+    {
+        "original": "http://dbpedia.org/resource/UOL_Group",
+        "fix": "http://dbpedia.org/resource/Pan_Pacific_Hotels_and_Resorts"
+    }
+]

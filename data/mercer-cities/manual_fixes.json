@@ -1,0 +1,38 @@
+[
+    {
+        "original": "http://dbpedia.org/resource/Portland",
+        "fix": "http://dbpedia.org/resource/Portland,_Oregon>"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Omuta",
+        "fix": "http://dbpedia.org/resource/Ōmuta,_Fukuoka"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Katsuyama",
+        "fix": "http://dbpedia.org/resource/Katsuyama,_Fukui"
+    },
+    {
+        "original": "http://dbpedia.org/resource/San_Juan",
+        "fix": "http://dbpedia.org/resource/San_Juan,_Puerto_Rico"
+    },
+    {
+        "original": "http://dbpedia.org/resource/San_Jose",
+        "fix": "http://dbpedia.org/resource/San_José,_Costa_Rica"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Victoria",
+        "fix": "http://dbpedia.org/resource/Victoria,_Seychelles"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Nassau",
+        "fix": "http://dbpedia.org/resource/Nassau,_Bahamas"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Lome",
+        "fix": "http://dbpedia.org/resource/Lomé"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Sanaa",
+        "fix": "http://dbpedia.org/resource/Sana'a"
+    }
+]

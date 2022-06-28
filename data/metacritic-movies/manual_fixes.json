@@ -1,0 +1,34 @@
+[
+    {
+        "original": "http://dbpedia.org:8890/resource/Lone_Star_(1996_film)",
+        "fix": "http://dbpedia.org/resource/Lone_Star_(1996_film)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Good_Hair_(film)",
+        "fix": "http://dbpedia.org/resource/Good_Hair"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Alice_and_Martin_(1998_film)",
+        "fix": "http://dbpedia.org/resource/Alice_and_Martin"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Yours,_Mine_and_Ours_(2005_film)",
+        "fix": "http://dbpedia.org/resource/Yours,_Mine_&_Ours_(2005_film)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/As_Luck_Would_Have_It_(2012_film)_(2012_film)",
+        "fix": "http://dbpedia.org/resource/As_Luck_Would_Have_It_(2011_film)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Das_Wilde_Leben",
+        "fix": "http://dbpedia.org/resource/Eight_Miles_High_(film)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/Someone_Like_You_(film)",
+        "fix": "http://dbpedia.org/resource/Someone_like_You_(film)"
+    },
+    {
+        "original": "http://dbpedia.org/resource/John_Q",
+        "fix": "http://dbpedia.org/resource/John_Q."
+    }
+]
