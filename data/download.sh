@@ -11,7 +11,7 @@ datasets=(
     metacritic-albums
     forbes-companies
     mercer-cities
-    aaup-salaries
+    aaup-universities
 )
 
 locations=(

@@ -1,6 +1,7 @@
 **/__pycache__
 
-data
+data/dbpedia
+data/**/data.tsv
 !data/download.sh
 
 jena

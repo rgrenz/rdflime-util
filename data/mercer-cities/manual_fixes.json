@@ -1,7 +1,7 @@
 [
     {
         "original": "http://dbpedia.org/resource/Portland",
-        "fix": "http://dbpedia.org/resource/Portland,_Oregon>"
+        "fix": "http://dbpedia.org/resource/Portland,_Oregon"
     },
     {
         "original": "http://dbpedia.org/resource/Omuta",

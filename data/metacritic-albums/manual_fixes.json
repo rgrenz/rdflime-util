@@ -57,7 +57,7 @@
     },
     {
         "original": "http://dbpedia.org/resource/Time_to_Die",
-        "fix": "Time_to_Die_(The_Dodos_album)"
+        "fix": "http://dbpedia.org/resource/Time_to_Die_(The_Dodos_album)"
     },
     {
         "original": "http://dbpedia.org/resource/Audioslave_(DVD)",
@@ -69,7 +69,7 @@
     },
     {
         "original": "http://dbpedia.org/resource/Let_Them_Talk",
-        "fix": "Let_Them_Talk_(Hugh_Laurie_album)"
+        "fix": "http://dbpedia.org/resource/Let_Them_Talk_(Hugh_Laurie_album)"
     },
     {
         "original": "http://dbpedia.org/resource/Love_Notes/Letter_Bombs",

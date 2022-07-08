@@ -1,7 +1,7 @@
 [
     {
         "original": "http://dbpedia.org/resource/Total",
-        "fix": "http://dbpedia.org/resource/TotalEnergies"
+        "fix": "http://dbpedia.org/resource/Total_S.A."
     },
     {
         "original": "http://dbpedia.org/resource/ENI",
@@ -13,7 +13,7 @@
     },
     {
         "original": "http://dbpedia.org/resource/Vale",
-        "fix": "http://dbpedia.org/resource/Vale_S.A."
+        "fix": "http://dbpedia.org/resource/Vale_(mining_company)"
     },
     {
         "original": "http://dbpedia.org/resource/GDF_Suez",
@@ -37,7 +37,7 @@
     },
     {
         "original": "http://dbpedia.org/resource/VimpelCom",
-        "fix": "http://dbpedia.org/resource/VEON"
+        "fix": "http://dbpedia.org/resource/VimpelCom_Ltd."
     },
     {
         "original": "http://dbpedia.org/resource/Linde",

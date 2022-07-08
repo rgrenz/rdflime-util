@@ -10,6 +10,7 @@ datasets = [
         "location": "../data/metacritic-movies",
         "columns": {
             "uri": "DBpedia_URI",
+            "uri_fixed": "DBpedia_URI16",
             "label": "label",
             "rating": "rating"
         },
@@ -23,6 +24,7 @@ datasets = [
         "location": "../data/metacritic-albums",
         "columns": {
             "uri": "DBpedia_URI",
+            "uri_fixed": "DBpedia_URI16",
             "label": "label",
             "rating": "rating"
         },
@@ -36,6 +38,7 @@ datasets = [
         "location": "../data/forbes-companies",
         "columns": {
             "uri": "DBpedia_URI",
+            "uri_fixed": "DBpedia_URI16",
             "label": "label",
             "rating": "rating"
         },
@@ -49,6 +52,7 @@ datasets = [
         "location": "../data/mercer-cities",
         "columns": {
             "uri": "DBpedia_URI",
+            "uri_fixed": "DBpedia_URI16",
             "label": "label",
             "rating": "rating"
         },
@@ -57,11 +61,12 @@ datasets = [
         "active": True
     },
     {
-        "name": "aaup-salaries",
-        "entity": "salaries",
-        "location": "../data/aaup-salaries",
+        "name": "aaup-universities",
+        "entity": "universities",
+        "location": "../data/aaup-universities",
         "columns": {
             "uri": "DBpedia_URI",
+            "uri_fixed": "DBpedia_URI16",
             "label": "label",
             "rating": "rating"
         },
@@ -77,7 +82,7 @@ def load_dataset(cfg, fixed=True):
     file = "data_fixed.tsv" if fixed else "data.tsv"
     datasetFull = pd.read_csv(os.path.join(
         cfg["location"], file), sep="\t")
-    uri_col = cfg["columns"]["uri"]
+    uri_col = cfg["columns"]["uri_fixed"] if fixed else cfg["columns"]["uri"]
     datasetEntities = [row[uri_col] for _, row in datasetFull.iterrows()]
     return (datasetFull, datasetEntities)
 

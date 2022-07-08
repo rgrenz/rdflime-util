@@ -1,0 +1,19 @@
+occupationLabel,Konrad Adenauer,Ludwig Erhard,Kurt Georg Kiesinger,Willy Brandt,Walter Scheel,Helmut Schmidt,Helmut Kohl,Gerhard Schröder,Angela Merkel,Olaf Scholz
+assessor,1,0,0,0,0,0,0,0,0,0
+autobiographer,1,0,0,1,0,0,0,0,0,0
+civil servant,0,0,0,0,0,1,0,0,0,0
+consultant,0,0,0,0,0,0,0,1,0,0
+economist,0,1,0,0,0,1,0,0,0,0
+historian,0,0,0,0,0,0,1,0,0,0
+journalist,0,0,0,1,0,0,0,0,0,0
+judge,1,0,1,0,0,0,0,0,0,0
+lawyer,1,0,1,0,0,0,0,1,0,1
+lobbyist,0,0,0,0,0,0,0,1,0,0
+military personnel,0,0,0,0,1,0,0,0,0,0
+non-fiction writer,0,0,0,1,0,1,0,1,0,0
+physicist,0,0,0,0,0,0,0,0,1,0
+political scientist,0,0,0,0,0,0,1,0,0,0
+politician,1,1,1,1,1,1,1,1,1,1
+resistance fighter,1,0,0,0,0,0,0,0,0,0
+university teacher,0,1,0,0,0,0,0,0,0,0
+writer,0,0,0,0,0,1,0,0,0,0
