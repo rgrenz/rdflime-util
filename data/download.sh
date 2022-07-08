@@ -28,8 +28,7 @@ for i in "${!datasets[@]}"; do
     location=${locations[$i]}
     printf "✨ ${BLUE}Downloading ${dataset} dataset...${NC}\n"
     dataPath=$dataRoot/$dataset
-    rm -rf $dataPath
-    mkdir $dataPath
+    mkdir -p $dataPath
     wget $location -O $dataPath/data.tsv -q --show-progress
 done
 
