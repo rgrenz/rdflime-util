@@ -83,7 +83,8 @@ def load_dataset(cfg, fixed=True):
     datasetFull = pd.read_csv(os.path.join(
         cfg["location"], file), sep="\t")
     uri_col = cfg["columns"]["uri_fixed"] if fixed else cfg["columns"]["uri"]
-    datasetEntities = [row[uri_col] for _, row in datasetFull.iterrows()]
+    datasetEntities = list(
+        {row[uri_col] for _, row in datasetFull.iterrows()})  # Remove duplicates
     return (datasetFull, datasetEntities)
 
 

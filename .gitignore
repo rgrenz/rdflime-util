@@ -1,8 +1,10 @@
 **/__pycache__
 
-data/dbpedia
-data/**/data.tsv
+data
+!data/**/data_fixed.tsv
+!data/**/manual_fixes.tsv
 !data/download.sh
+!data/user-study
 
 jena
 *.pdf
