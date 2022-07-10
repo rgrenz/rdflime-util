@@ -3,6 +3,7 @@ import os
 
 dbpediaLocation = "http://localhost:3030/dbpedia"
 dataLocation = "../data"
+randomSeed = 42
 
 datasets = [
     {
@@ -16,8 +17,8 @@ datasets = [
             "label": "label",
             "rating": "rating"
         },
-        "train_partition": [400, 2000],
-        "test_partition": [0, 400],
+        "train_partition": [0, 1800],
+        "test_partition": [1800, 2000],
         "active": True
     },
     {
@@ -31,8 +32,8 @@ datasets = [
             "label": "label",
             "rating": "rating"
         },
-        "train_partition": [400, 2000],
-        "test_partition": [0, 400],
+        "train_partition": [0, 1440],
+        "test_partition": [1440, 1600],
         "active": True
     },
     {
@@ -46,8 +47,8 @@ datasets = [
             "label": "label",
             "rating": "rating"
         },
-        "train_partition": [400, 2000],
-        "test_partition": [0, 400],
+        "train_partition": [0, 1426],
+        "test_partition": [1426, 1585],
         "active": True
     },
     {
@@ -61,8 +62,8 @@ datasets = [
             "label": "label",
             "rating": "rating"
         },
-        "train_partition": [400, 2000],
-        "test_partition": [0, 400],
+        "train_partition": [0, 190],
+        "test_partition": [190, 212],
         "active": True
     },
     {
@@ -76,8 +77,8 @@ datasets = [
             "label": "label",
             "rating": "rating"
         },
-        "train_partition": [400, 2000],
-        "test_partition": [0, 400],
+        "train_partition": [0, 864],
+        "test_partition": [864, 960],
         "active": True
     },
 ]
@@ -94,7 +95,11 @@ def load_dataset(cfg, fixed=True):
     return (datasetFull, datasetEntities)
 
 
-def split_dataset(dataset, cfg):
-    train = dataset[cfg["train_partition"][0]:cfg["train_partition"][1]]
-    test = dataset[cfg["test_partition"][0]:cfg["test_partition"][1]]
+def split_dataset(dataset, cfg, randomize=True):
+    if randomize:
+        target = dataset.sample(frac=1, random_state=randomSeed)
+    else:
+        target = dataset
+    train = target[cfg["train_partition"][0]:cfg["train_partition"][1]]
+    test = target[cfg["test_partition"][0]:cfg["test_partition"][1]]
     return (train, test)
