@@ -2,6 +2,7 @@ import pandas as pd
 import os
 
 dbpediaLocation = "http://localhost:3030/dbpedia"
+dataLocation = "../data"
 
 datasets = [
     {
@@ -11,6 +12,7 @@ datasets = [
         "columns": {
             "uri": "DBpedia_URI",
             "uri_fixed": "DBpedia_URI16",
+            "uri_geval": "DBpedia_URI15",
             "label": "label",
             "rating": "rating"
         },
@@ -25,6 +27,7 @@ datasets = [
         "columns": {
             "uri": "DBpedia_URI",
             "uri_fixed": "DBpedia_URI16",
+            "uri_geval": "DBpedia_URI15",
             "label": "label",
             "rating": "rating"
         },
@@ -39,6 +42,7 @@ datasets = [
         "columns": {
             "uri": "DBpedia_URI",
             "uri_fixed": "DBpedia_URI16",
+            "uri_geval": "DBpedia_URI15",
             "label": "label",
             "rating": "rating"
         },
@@ -53,6 +57,7 @@ datasets = [
         "columns": {
             "uri": "DBpedia_URI",
             "uri_fixed": "DBpedia_URI16",
+            "uri_geval": "DBpedia_URI15",
             "label": "label",
             "rating": "rating"
         },
@@ -67,6 +72,7 @@ datasets = [
         "columns": {
             "uri": "DBpedia_URI",
             "uri_fixed": "DBpedia_URI16",
+            "uri_geval": "DBpedia_URI15",
             "label": "label",
             "rating": "rating"
         },
@@ -83,8 +89,8 @@ def load_dataset(cfg, fixed=True):
     datasetFull = pd.read_csv(os.path.join(
         cfg["location"], file), sep="\t")
     uri_col = cfg["columns"]["uri_fixed"] if fixed else cfg["columns"]["uri"]
-    datasetEntities = list(
-        {row[uri_col] for _, row in datasetFull.iterrows()})  # Remove duplicates
+    datasetEntities = list(dict.fromkeys(
+        [row[uri_col] for _, row in datasetFull.iterrows()]))  # Remove duplicates, keep order
     return (datasetFull, datasetEntities)
 
 

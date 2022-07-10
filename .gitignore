@@ -3,6 +3,8 @@
 data/**/data.tsv
 data/**/transformers
 data/dbpedia
+data/embeddings
+data/**/classifiers
 
 jena
 *.pdf
