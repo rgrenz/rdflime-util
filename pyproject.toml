@@ -7,7 +7,6 @@ authors = ["Rouven Grenz"]
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
 ipykernel = "^6.13.0"
-pyrdf2vec = "^0.2.3"
 gensim = "^4.1.2"
 rdflib = "^6.1.1"
 aiohttp = "^3.8.1"
@@ -22,6 +21,7 @@ pygraphviz = "^1.9"
 bokeh = "^2.4.3"
 holoviews = "^1.15.0"
 mpld3 = "^0.5.8"
+pyrdf2vec = "^0.2.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
