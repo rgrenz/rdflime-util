@@ -5,6 +5,7 @@ data/**/transformers
 data/dbpedia
 data/embeddings
 data/**/classifiers
+data/**/explanations
 
 jena
 *.pdf
