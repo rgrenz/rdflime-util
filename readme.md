@@ -41,12 +41,32 @@ __1. Data Preprocessing__:
 ./rdflime-util/notebooks/1_DBpediaFixes.ipynb
 ```
 
-__2. Generation & Evaluation__:
+__2. Embedding Generation__:
 ```bash
 # Follow the steps outlined in:
-./rdflime-util/notebooks/2_InitialPipeline.ipynb
+./rdflime-util/notebooks/2_EmbeddingGeneration.ipynb
 
 # Now we have built and evaluated RDF2Vec knowledge graph embeddings for our entities of interest.
 # Additionally, the classifier under test has been trained already.
 # Next step: Explanations!
 ```
+
+__3. Explanation__:
+```bash
+# Follow the steps outlined in:
+./rdflime-util/notebooks/3_RDFLIME.ipynb
+```
+
+__4. Explanation Evaluation__:
+```bash
+# Follow the steps outlined in:
+./rdflime-util/notebooks/4_LimeEval.ipynb
+```
+
+__4. Survey Evaluation__:
+```bash
+# Follow the steps outlined in:
+./rdflime-util/notebooks/5_SurveyEval.ipynb
+```
+
+
